@@ -20,6 +20,8 @@
       "@/components/*": ["./components/*"],
       "@/pages/*": ["./pages/*"],
       "@/routes/*": ["./routes/*"],
+      "@/services/*": ["./services/*"],
+      "@/constants/*": ["./constants/*"],
     },
   },
   "include": ["src"],

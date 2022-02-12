@@ -1,5 +1,7 @@
 import { Spinner } from "@chakra-ui/react";
 
+import './index.css';
+
 interface spinnerProps {
   thickness: string;
   speed: string;

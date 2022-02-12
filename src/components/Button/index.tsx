@@ -5,8 +5,8 @@ interface buttonProps {
   onClick: Function;
   colorScheme: string;
   variant: string;
-  className?: string;
-  disabled?: boolean;
+  className: string;
+  disabled: string;
   width: string;
 }
 

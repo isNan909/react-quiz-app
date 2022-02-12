@@ -1,0 +1,8 @@
+/* spinner scoped styling */
+
+.app-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
