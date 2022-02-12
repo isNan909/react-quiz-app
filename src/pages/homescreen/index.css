@@ -1,0 +1,32 @@
+/* homescreen scoped styles */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.greeting-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+}
+
+.greeting-box p {
+  margin-bottom: 30px;
+}
+
+.greeting-box > div {
+  padding: 40px;
+}
+
+.answer-list {
+  margin: 25px 0px;
+}
+
+.answer-list ul {
+  margin-top: 5px;
+}
