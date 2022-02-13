@@ -1,4 +1,4 @@
-export const totalQuestions = 5;
+export const totalQuestions = 10;
 
 export enum Difficulty {
   EASY = "easy",

@@ -5,9 +5,9 @@ interface buttonProps {
   onClick: Function;
   colorScheme: string;
   variant: string;
-  className: string;
-  disabled: string;
-  width: string;
+  className?: string;
+  disabled?: any;
+  width?: string;
 }
 
 const Appbutton: React.FC<buttonProps> = ({
