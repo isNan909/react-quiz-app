@@ -1,26 +1,12 @@
 import { useEffect, useState } from "react";
 import { Difficulty, totalQuestions } from "@/constants/index";
 import { getQuestionList } from "@/services/fetchQuestions";
+import { QuestionProps, AnswerObject } from "@/interface/index";
 import { Appspinner, Appbutton } from "@/components/index";
 import { Questioncard } from "@/components/index";
 import { Box, Heading, Divider } from "@chakra-ui/react";
 
 import "./index.css";
-interface QuestionProps {
-  question: string;
-  category: string;
-  callback: Function;
-  totalQuestions: number;
-  questionNumber: number;
-  correct_answer: string;
-}
-
-interface AnswerObject {
-  question: string;
-  answer: string;
-  correct: boolean;
-  correctAnswer: string;
-};
 
 const Triviahome: React.FC = () => {
   const [startQuiz, setStartQuiz] = useState(false);
@@ -105,11 +91,11 @@ const Triviahome: React.FC = () => {
             <div className="greeting-box">
               <Box boxShadow="base" p="6" rounded="md" bg="white" maxW="560px">
                 <Heading as="h1" size="lg" mb={2}>
-                  Welcome to Trivia quiz application
+                  Welcome to Quiz Application
                 </Heading>
                 <p>
                   You will be presented with {totalQuestions} questions which
-                  can be answered true or false. Best of luck!
+                  can be answered true or false. All the best!
                 </p>
                 <Appbutton
                   colorScheme="purple"

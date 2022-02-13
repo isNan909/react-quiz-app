@@ -1,16 +1,7 @@
 import { Button } from "@chakra-ui/react";
+import { ButtonProps } from '@/interface/index';
 
-interface buttonProps {
-  value: string;
-  onClick: Function;
-  colorScheme: string;
-  variant: string;
-  className?: string;
-  disabled?: any;
-  width?: string;
-}
-
-const Appbutton: React.FC<buttonProps> = ({
+const Appbutton: React.FC<ButtonProps> = ({
   value,
   onClick,
   colorScheme,

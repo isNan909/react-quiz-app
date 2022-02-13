@@ -1,15 +1,8 @@
 import { Box, Flex, Spacer, Heading } from "@chakra-ui/react";
 import Appbutton from "@/components/Button";
+import { QuestionCardProps } from "@/interface/index"
 
-interface questionCardProps {
-  questions: string;
-  category: string;
-  totalQuestions?: number;
-  questionNumber?: number;
-  callback: Function;
-}
-
-const Questioncard: React.FC<questionCardProps> = ({
+const Questioncard: React.FC<QuestionCardProps> = ({
   questions,
   callback,
   category,

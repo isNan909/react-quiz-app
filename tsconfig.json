@@ -22,6 +22,7 @@
       "@/routes/*": ["./routes/*"],
       "@/services/*": ["./services/*"],
       "@/constants/*": ["./constants/*"],
+      "@/interface/*": ["./interface/*"],
     },
   },
   "include": ["src"],
